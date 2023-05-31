@@ -4,13 +4,19 @@ h1 {
 
 .container {
   text-align: center;
-  background-color: aquamarine;
+ 
+  background-image: linear-gradient(to bottom right,orange,rgb(85, 218, 252),rgba(16, 5, 101, 0.937));
   padding: 50px 20px;
   display: flex;
   gap: 20px;
   justify-content: center;
 }
-
+img{
+  background: none;
+  width:50px;
+  position: absolute;
+  top: 20%;
+}
 input {
   padding: 10px;
   font-size: large;
